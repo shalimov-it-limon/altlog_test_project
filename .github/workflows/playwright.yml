@@ -5,15 +5,12 @@ on:
   pull_request:
     branches: [ main, master ]
 jobs:
-  Xvfb:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Install Xvfb
-      run: sudo apt-get install -y xvfb
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
+    - name: Install Xvfb
+      run: sudo apt-get install -y xvfb
     - uses: actions/checkout@v5
     - name: Set up Python
       uses: actions/setup-python@v6
