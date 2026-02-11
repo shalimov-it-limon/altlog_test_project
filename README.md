@@ -18,5 +18,5 @@
     test_delivery_days.py (тест с обращением к БД)
     test_delivery_schedule (тесты интерфеса)
 
-Порядок запускатестов:
+Порядок запуска тестов:
 Вкладка Actions -> Выбираем самый последний workflow -> Нажимаем на Re-run jobs -> Нажимаем на Re-run all jobs
