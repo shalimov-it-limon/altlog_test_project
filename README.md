@@ -19,4 +19,4 @@
     test_delivery_schedule (тесты интерфеса)
 
 Порядок запускатестов:
-Вкладка Actions ->
+Вкладка Actions -> Выбираем самый последний workflow -> Нажимаем на Re-run jobs -> Нажимаем на Re-run all jobs
