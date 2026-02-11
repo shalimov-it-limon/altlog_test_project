@@ -7,7 +7,7 @@ class DeliverySchedulePage(BasePage):
     URL = "https://altlog.ru/grafik-dostavok-sbornyh-gruzov"
 
     title = "h1"
-    cities_column = "table tbody tr td:first-child"
+    cities_column = ".col .filter:first-child"
     cities = "div[class*='city'], div[class*='row']"
 
     def open_page(self):
@@ -16,9 +16,6 @@ class DeliverySchedulePage(BasePage):
 
     def get_title(self):
         return BaseElement(self.page, self.title).get_text()
-
-    #def is_table_visible(self):
-    #   return BaseElement(self.page, self.table).is_visible()
 
     def get_all_cities(self):
         return self.page.locator(self.cities_column).all_inner_texts()
