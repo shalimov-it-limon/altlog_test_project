@@ -27,3 +27,5 @@ jobs:
       with:
         name: playwright-traces
         path: test-results/
+    - name: Install Xvfb
+      run: sudo apt-get install -y xvfb
