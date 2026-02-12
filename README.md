@@ -4,7 +4,7 @@
 
 Структура репозитория:
 
--github\workflows (настройки взаимодействия с GitHub)
+- github\workflows (настройки взаимодействия с GitHub)
 - venv (виртуальной окружение Python)
 - vscode (настройки запуска VS Code)
 - e2e (для автотестов Playwright)
