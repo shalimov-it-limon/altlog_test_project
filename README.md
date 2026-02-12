@@ -4,9 +4,9 @@
 
 Структура репозитория:
 
--.github\workflows (настройки взаимодействия с GitHub)
--.venv (виртуальной окружение Python)
--.vscode (настройки запуска VS Code)
+-github\workflows (настройки взаимодействия с GitHub)
+-venv (виртуальной окружение Python)
+-vscode (настройки запуска VS Code)
 - e2e (для автотестов Playwright)
 - elements (классы для фреймворка Page Element)
 - factories (классы для фреймворка Page Factory)
